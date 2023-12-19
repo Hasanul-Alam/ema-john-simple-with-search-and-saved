@@ -9,8 +9,8 @@ import Inventory from './components/Inventory/Inventory';
 function App() {
   return (
     <div>
-      <Header></Header>
       <BrowserRouter>
+      <Header></Header>
         <Routes>
           <Route exact path='/' element={<Shop />}/>
           <Route path='/shop' element={<Shop />}/>
